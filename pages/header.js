@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelope } from "@fortawesome/fontawesome-free-solid";
+import { faLinkedin, faGithub } from "@fortawesome/fontawesome-free-brands";
 import styles from "../styles/Home.module.css";
 
 export default function Header() {
@@ -16,13 +19,13 @@ export default function Header() {
         <h1 className={styles.h1}>Victoria Kush</h1>
         <ul className={styles.contacts}>
           <li>
-            <i className="fas fa-phone-alt"></i>
+            <FontAwesomeIcon icon={faPhone} />
             <a href="tel:71465372" title="nummer of the phone">
               71 46 53 72
             </a>
           </li>
           <li>
-            <i className="fas fa-envelope"></i>
+            <FontAwesomeIcon icon={faEnvelope} />
             <a
               href="mailto:victoria.v.kush@gmail.com?"
               title="e-mail"
@@ -34,7 +37,7 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <i className="fab fa-linkedin"></i>
+            <FontAwesomeIcon icon={faLinkedin} />
             <a
               href="https://www.linkedin.com/in/victoria-kush-4a0455155"
               title="profil of the linkedin account"
@@ -45,7 +48,7 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <i className="fab fa-github"></i>
+          <FontAwesomeIcon icon={faGithub} />
             <a
               href="https://github.com/panivita"
               title="profil of the github account"

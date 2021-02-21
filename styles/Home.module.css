@@ -95,10 +95,14 @@
   padding-left: 60px;
 }
 
-.skills svg, .info svg {
+.info svg {
   padding-right: 10px;
+  width: 26px;
 }
-
+.skills svg {
+  padding: 0px 5px;
+  width: 22px;
+}
 .column {
   padding-right: 10px;
   flex: 33%;

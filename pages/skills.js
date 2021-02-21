@@ -1,4 +1,14 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCss3Alt,
+  faGitSquare,
+  faHtml5,
+  faJs,
+  faNodeJs,
+  faReact,
+} from "@fortawesome/fontawesome-free-brands";
 import styles from "../styles/Home.module.css";
+import { faDatabase } from "@fortawesome/fontawesome-free-solid";
 
 export default function Skills() {
   return (
@@ -20,28 +30,30 @@ export default function Skills() {
           </li>
           <li>
             Proficient understanding of web markup, including knowledge of
-            modern <i className="fab fa-html5"></i> HTML/{" "}
-            <i className="fab fa-css3-alt"></i>CSS.
+            modern <FontAwesomeIcon icon={faHtml5} /> HTML/{" "}
+            <FontAwesomeIcon icon={faCss3Alt} />
+            CSS.
           </li>
           <li>
             Responsive design skills, knowledge of how to mix of flexible grids
             and layouts, images and how to use of{" "}
-            <i className="fab fa-css3-alt"></i> CSS media queries.
+            <FontAwesomeIcon icon={faCss3Alt} /> CSS media queries.
           </li>
           <li>
-            Fair understanding of <i className="fab fa-js"></i> JavaScript
+            Fair understanding of <FontAwesomeIcon icon={faJs} /> JavaScript
             programming and DOM manipulation.{" "}
           </li>
           <li>Experience in TypeScript.</li>
           <li>Coding in ES6 standards for readability, maintainability.</li>
           <li>
-            <i className="fab fa-git-alt"></i> Git. Experience keep the track of
-            modifications with a comment, merging and branching strategies,
-            managing merge conflicts.
+            <FontAwesomeIcon icon={faGitSquare} /> Git. Experience keep the
+            track of modifications with a comment, merging and branching
+            strategies, managing merge conflicts.
           </li>
           <li>
-            Good understanding of <i className="fab fa-react"></i> React.js and
-            its core principles. Experience with React Hook Form, React Hooks.
+            Good understanding of <FontAwesomeIcon icon={faReact} /> React.js
+            and its core principles. Experience with React Hook Form, React
+            Hooks.
           </li>
           <li>
             Experience in creating user validation forms and sending data to
@@ -49,11 +61,11 @@ export default function Skills() {
           </li>
           <li>
             Adequate knowledge how servers work as well as APIs, MySQL, the{" "}
-            <i className="fas fa-database"></i> database.
+            <FontAwesomeIcon icon={faDatabase} /> database.
           </li>
           <li>
-            Understanding how core <i className="fab fa-node"></i> Node.js
-            works. Experience deploying my <i className="fab fa-node"></i>{" "}
+            Understanding how core <FontAwesomeIcon icon={faNodeJs} /> Node.js
+            works. Experience deploying my <FontAwesomeIcon icon={faNodeJs} />{" "}
             application to a cloud platform Heroku.
           </li>
         </ul>
