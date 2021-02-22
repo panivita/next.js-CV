@@ -1,4 +1,5 @@
 import Head from "next/head";
+import MetaTags from "./meta-tags";
 import Header from "./header";
 import ProfileExperience from "./profile-experience";
 import Skills from "./skills";
@@ -9,8 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>CV Victoria Kush</title>
-        <link rel="icon" href="/favicon.ico" />
+        <MetaTags />
       </Head>
 
       <Header />
