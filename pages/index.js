@@ -11,6 +11,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <MetaTags />
+        <title>CV Victoria Kush</title>
       </Head>
 
       <Header />
