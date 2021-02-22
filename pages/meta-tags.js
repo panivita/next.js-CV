@@ -1,3 +1,4 @@
+ 
 export default function MetaTags() {
   const name = "CV Victoria Kush";
   const content =
@@ -28,21 +29,7 @@ export default function MetaTags() {
       <meta name="twitter:description" content={content} />
       <meta name="twitter:image" content={imageUrl} />
       <link rel="icon" href="/favicon.ico" />
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-190303422-1"
-      />
-
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '[Tracking ID]');
-        `,
-        }}
-      />
+     
     </>
   );
 }
